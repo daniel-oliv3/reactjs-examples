@@ -1,7 +1,18 @@
 ## REACT HOOKS
 
+**Criando o projeto React**
+```
+npx create-react-app app_01
+```
+**Roda o projeto**
+```
+npm start
+```
 
+- Exemplo: app_01
 
+## useState
+- Example: https://reactjs.org/docs/hooks-state.html
 
 
 
