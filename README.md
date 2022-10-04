@@ -48,17 +48,17 @@ export default App;
 - Example: https://reactjs.org/docs/hooks-effect.html
 - Exemplo: app_02
 
-**Example useState**
+**Example useEffect**
 ```js
 //App.js
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function App() {
 
   const [hasUserClickedOnButton, setHasUserClickedOnButton] = useState(false);
 
   function handleButtonClick(){
-    setHasUserClickedOnButton(true);
+    setHasUserClickedOnButton(!hasUserClickedOnButton);
   }
 
   useEffect(() => {
